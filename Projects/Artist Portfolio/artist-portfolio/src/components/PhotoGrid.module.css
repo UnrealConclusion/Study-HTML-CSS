@@ -1,0 +1,27 @@
+.grid {
+    padding: 16px;
+}
+
+.photo {
+    display: inline-block;
+    width: 49.75%;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.photo img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.photo img:hover {
+    opacity: 0.9;
+}
+
+.photo h2 {
+    display: inline-block;
+    margin: 8px 0 16px 0;
+
+    font-weight: 300;
+}

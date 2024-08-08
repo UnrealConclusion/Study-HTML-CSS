@@ -1,0 +1,36 @@
+
+.navbar {
+    display: inline-block;
+    margin: 32px;
+}
+
+/* Styles for the Logo */
+.navbar h1 {
+    display: inline-block;
+    margin: 0 32px 0 0;
+
+    font-size: 32px;
+    font-weight: 300;
+}
+
+/* Styles for the Links*/
+.navbar ul {
+    display: inline-block;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    margin: 0 8px;
+    
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.activeLink {
+    border-bottom: 1px solid black;
+}
