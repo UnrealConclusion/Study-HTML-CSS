@@ -1,0 +1,47 @@
+body {
+    font-family: Mukta, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Bitter, serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: -1.5px;
+}
+h2 {
+    font-size: 50px;
+    letter-spacing: -0.5px;
+}
+
+h3 {
+    font-size: 38px;
+    letter-spacing: 0px;
+}
+
+h4 {
+    font-size: 30px;
+    letter-spacing: 0.25px;
+}
+
+h5 {
+    font-size: 24px;
+    letter-spacing: 0.25px;
+}
+
+h6 {
+    font-size: 20px;
+    letter-spacing: 0.25px;
+}
+
+code {
+    color: #e95400;
+    font-weight: bold;
+}

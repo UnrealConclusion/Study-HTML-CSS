@@ -1,0 +1,14 @@
+.quote {
+    font-style: italic;
+    font-size: 14px;
+    border-left: 2px solid #e95400;
+    padding-left: 16px;
+    margin: 32px 0 32px 32px;
+  }
+  
+.quote cite {
+    display: block;
+    font-weight: bold;
+    margin-left: 20px;
+}
+  

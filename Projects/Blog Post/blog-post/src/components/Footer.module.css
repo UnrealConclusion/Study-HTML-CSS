@@ -1,0 +1,26 @@
+.footerBar {
+    background-color: #863ae8;
+  }
+  
+.footerBar ul {
+    list-style: none;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    padding: 28px 0;
+}
+  
+.footerBar ul li {
+    display: inline;
+    padding: 0 16px;
+}
+  
+.footerBar li a {
+    text-decoration: none;
+    color: white;
+}
+  
+.footerBar li a:hover {
+    text-decoration: underline;
+}
