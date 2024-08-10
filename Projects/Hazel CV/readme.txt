@@ -1,0 +1,1 @@
+Note how in this project the two column effect was created using float rather than flexbox or grid
