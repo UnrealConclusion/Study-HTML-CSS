@@ -12,3 +12,4 @@ export default function BlogPost({children}) {
 BlogPost.propTypes = {
     children : PropTypes.node
 }
+
