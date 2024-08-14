@@ -1,7 +1,10 @@
-.about h3{
+.about {
     width: 40%;
     min-width: 600px;
     margin: 100px 0 100px 200px;
+}
+
+.about h3{
     font-size: 40px;
     font-weight: 300;
 }
@@ -21,4 +24,17 @@
 .contact p {
     margin: 0;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .about {
+        margin: 100px 0 100px 100px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .about {
+        margin: 100px auto 100px auto;
+        min-width: 450px;
+    }
 }
