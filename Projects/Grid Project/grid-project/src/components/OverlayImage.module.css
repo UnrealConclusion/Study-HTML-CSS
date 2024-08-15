@@ -1,0 +1,48 @@
+/* the container that the image is placed in */
+.container {
+    position: relative;
+}
+
+/* styles for the image itself */
+.container img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+/* styles for the overlay */
+.container .overlay {
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+/* use white text for overlay */
+.overlay.white {
+    color: white;
+}
+
+/* make the overlay text appear on hover */
+.container .overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .container .overlay {
+      font-size: 24px;
+    }
+}
+  

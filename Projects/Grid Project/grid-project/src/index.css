@@ -1,0 +1,94 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.app {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas:
+        "eth eth alphabet"
+        "eth eth traveler"
+        "astro cube traveler"
+        "cup insta insta"
+        "cup insta insta"
+        "foam foam dimensional"
+        "foam foam dimensional";
+    gap: 16px;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+#eth {
+    grid-area: eth;
+}
+
+#alphabet {
+    grid-area: alphabet;
+}
+
+#traveler {
+    grid-area: traveler;
+}
+
+#astro {
+    grid-area: astro;
+}
+
+#cube {
+    grid-area: cube;
+}
+
+#cup {
+    grid-area: cup;
+}
+
+#insta {
+    grid-area: insta;
+}
+
+#foam {
+    grid-area: foam;
+}
+
+#dimensional {
+    grid-area: dimensional;
+}
+
+@media only screen and (max-width: 1100px) {
+    .app {
+        max-width: 100%;
+    }
+
+    .grid {
+      max-width: 100%;
+      grid-template-areas:
+        "eth eth"
+        "alphabet traveler"
+        "astro cube"
+        "insta insta"
+        "cup foam"
+        "dimensional dimensional";
+    }
+}
+  
+@media only screen and (max-width: 768px) {
+    .grid {
+        margin-top: 100px;
+        grid-template-areas:
+            "eth eth"
+            "alphabet alphabet"
+            "traveler traveler"
+            "astro cube"
+            "insta insta"
+            "cup cup"
+            "foam foam"
+            "dimensional dimensional";
+    }
+}
+  
