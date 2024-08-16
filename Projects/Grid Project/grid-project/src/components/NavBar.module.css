@@ -68,7 +68,6 @@
     }
 }
 
-/*
 .hamburger .bar:nth-child(1) {
     animation: flipBar1 1s infinite;
 }
@@ -109,4 +108,3 @@
       transform: rotate(-45deg) translate(4px, -10px);
     }
 }
-*/
