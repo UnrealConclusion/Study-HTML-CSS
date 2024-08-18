@@ -1,0 +1,40 @@
+.navDrawer {
+    width: 80px;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: -160px;
+    padding: 16px;
+    transition: transform 0.3s;
+}
+
+.navDrawer img {
+    width: 24px;
+    height: 24px;
+}
+  
+.navDrawer a {
+    text-decoration: none;
+    color: black;
+    margin: 16px 0;
+}
+
+.navDrawer a:hover {
+    text-decoration: underline;
+} 
+
+.openDrawer {
+    transform: translateX(-160px);
+}
+
+@media only screen and (min-width: 768px) {
+    .navDrawer {
+      display: none;
+    }
+}

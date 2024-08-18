@@ -7,13 +7,19 @@ import cup from './assets/images/cup.avif'
 import insta from './assets/images/insta.avif'
 import foam from './assets/images/foam.avif'
 import dimensional from './assets/images/dimensional.avif'
-import {Footer, NavBar, OverlayImage} from './components'
+import {Footer, NavBar, MobileMenuDrawer, OverlayImage} from './components'
+import { useState } from 'react'
 
 function App() {
+  const [drawerOpen, setDrawerOpen] = useState(false) 
+  function toggleDrawer() {
+    setDrawerOpen((current) => !current);
+  }
 
   return (
     <div className="app">
-      <NavBar/>
+      <MobileMenuDrawer isOpen={drawerOpen}/>
+      <NavBar toggleDrawer={toggleDrawer}/>
       <div className="grid">
         <OverlayImage 
           id="eth"
